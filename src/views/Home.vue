@@ -64,7 +64,7 @@ height: 100%;
 background-image: url(../assets/main.jpg);
 background-repeat: no-repeat;
 background-size:cover;
- z-index: -1; 
+ z-index: -1;
 }
 .text
 {
@@ -75,6 +75,7 @@ background-size:cover;
   padding-right: 1001px;
   font-size: 50px;
   font-weight: 100px;
+  
 
 }
 
