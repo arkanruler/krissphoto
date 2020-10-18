@@ -24,7 +24,7 @@ export default{
     
 });
     //  tl.fromTo(".fon", 1, {y:1200}, {y:0})
-    tl.from(".fon",0.85,{autoAlpha:0})
+    tl.from(".fon",0.65,{autoAlpha:0})
     tl.from("h1",0.47,{autoAlpha:0})
     
     
