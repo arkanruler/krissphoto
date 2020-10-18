@@ -1,24 +1,30 @@
 <template>
-<div class="fon3">
   <div>
+      <div>
     <gallery :images="images" :index="index" @close="index = null"></gallery>
     <div
       class="image"
       v-for="(image, imageIndex) in images"
       :key="imageIndex"
       @click="index = imageIndex"
-      :style="{ backgroundImage: 'url(' + image + ')', width: '300px', height: '400px' }"
-    ></div>
+      :style="{ backgroundImage: 'url(' + image + ')', width: '375px', height: '470px' }"
+       ></div>
+       </div>
   </div>
-</div>
+
+
 </template>
 <script >
-  import Vue from 'vue'
+
  import VueGallery from 'vue-gallery';
  import { TimelineMax, TweenMax, } from "gsap";
   
   export default {
-    
+    // mounted(){
+    //    let tl = new TimelineMax()
+    //   if (tl.fromTo(".fon3", 0.15, {x:1200}, {x:0}))
+    //   return false
+    // },
     data: function () {
       return {
         images: [
@@ -42,10 +48,11 @@
     components: {
       'gallery': VueGallery
     },
-    mounted(){
-       let tl = new TimelineMax()
-      tl.fromTo(".fon3", 0.15, {x:1200}, {x:0})
-  }
+    // mounted(){
+    //    let tl = new TimelineMax()
+    //   tl.fromTo(".fon3", 0.15, {x:1200}, {x:0})
+    //   return false
+  //}
     }
 </script>
 <style scoped>
@@ -56,5 +63,6 @@
     background-position: center center;
     border: 1px solid #ebebeb;
     margin: 1px;
+    flex-direction: column;
   }
 </style>

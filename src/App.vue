@@ -11,7 +11,7 @@ import Navbar from '@/components/navbar.vue';
 export default {
   mounted() {
 
-let App=document.querySelector('.fon');
+ let App=document.querySelector('.fon');
 
 
 
