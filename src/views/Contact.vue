@@ -16,12 +16,12 @@ export default{
 
     let tl = new TimelineMax()
     // tl.fromTo(App, 1, {y:1000}, {y:0})
-    let els = document.querySelectorAll(".js-splitme");
-[].forEach.call(els, function(el)
-{  
-    // el.outerHTML = Splitter(el.outerHTML, '<span class="letter">$</span>');
+//     let els = document.querySelectorAll(".js-splitme");
+// [].forEach.call(els, function(el)
+// {  
+//     // el.outerHTML = Splitter(el.outerHTML, '<span class="letter">$</span>');
     
-});
+// });
      tl.fromTo(".fon1", 0.15, {x:1200}, {x:0})
      tl.from(".contacts",0.58,{autoAlpha:0})
      tl.from(".vk",0.34,{autoAlpha:0})
