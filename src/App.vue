@@ -6,12 +6,12 @@
 </template>
 
 <script>
-import { TimelineMax, TweenMax, } from "gsap";
+// import { TimelineMax, TweenMax, } from "gsap";
 import Navbar from '@/components/navbar.vue'; 
 export default {
   mounted() {
 
- let App=document.querySelector('.fon');
+//  let App=document.querySelector('.fon');
 
 
 
