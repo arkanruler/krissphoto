@@ -17,7 +17,7 @@
 <script >
 
  import VueGallery from 'vue-gallery';
- import { TimelineMax, TweenMax, } from "gsap";
+//  import { TimelineMax, TweenMax, } from "gsap";
   
   export default {
     // mounted(){

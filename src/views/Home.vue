@@ -1,9 +1,9 @@
 <template>
 <div class="fon">
-<div class="home">   
-      <h1 class="text">Kristina Baydaricko <p>Master of portrait photography</p></h1>
+<div class="home">
+      <h1 class="text">KRISS BAYDARICKO</h1>
   </div>
-</div>
+  </div>
 
 
 </template>
