@@ -1,15 +1,16 @@
 <template>
 <div class="fon">
-<div class="home">
-      <h1 class="text">KRISS BAYDARICKO</h1>
+  <div class="home">
+     <h1 class="text">KRISSTINA BAY</h1>
   </div>
-  </div>
+</div>
 
 
 </template>
 
 <script lang="ts">
 import { TimelineMax, TweenMax, } from "gsap";
+import  Input from './Admin.vue';
 
 export default{
   mounted() {
@@ -30,8 +31,14 @@ export default{
     
     
   
+    },
+    
+          components:{
+        'input-message':Input
+    }
+  
   }
-} 
+ 
 
 </script>
 <style lang="scss">
@@ -72,7 +79,7 @@ background-size:cover;
   font-family: 'Piedra', cursive;
   color:#ffffff;
   padding-bottom: 500px;
-  padding-right: 1001px;
+  padding-right: 600px;
   font-size: 50px;
   font-weight: 100px;
   
